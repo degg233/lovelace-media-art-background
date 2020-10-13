@@ -64,7 +64,7 @@ function setBackground(root, appLayout, lovelace, bgroundElem) {
   // restore user background
   viewRoot.style.backgroundImage = '';
   setupStyle(lovelace, bgroundElem);
-};
+}
 
 // get HA root element
 let root = document.querySelector("home-assistant");
